@@ -13,7 +13,7 @@ export class HomepageComponent implements OnInit {
   }
 
   onSubmit(){
-    console.log("login");
+    console.log("login page");
   }
 
 }
