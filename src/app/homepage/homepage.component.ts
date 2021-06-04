@@ -14,11 +14,15 @@ export class HomepageComponent implements OnInit {
 
   onSubmit(){
     console.log("login page");
-    
+
   }
 
- 
-  
+
+  public executeSelectedChange = (event:any) => {
+    console.log(event);
+  }
+
+
 
 }
 
