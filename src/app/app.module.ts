@@ -11,6 +11,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import { HeaderComponent } from './navigation/header/header.component';
 import {MaterialModule} from "./material/material.module";
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FooterComponent } from './navigation/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     LayoutComponent,
     SidenavListComponent,
     HeaderComponent,
+    FooterComponent,
 
   ],
   imports: [
