@@ -1,20 +1,39 @@
-<mat-toolbar color="primary">
-  <div fxHide.gt-xs>
-    <button mat-icon-button (click)="onToggleSidenav()">
-      <mat-icon>menu</mat-icon>
-    </button>
-  </div>
-  <div>
-    <a routerLink="/home">Smiley Shop</a>
-  </div>
-  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
-    <ul fxLayout fxLayoutGap="15px" class="navigation-items">
-      <li>
-        <a routerLink="/owner">Products</a>
+<div class="header"> 
+  <ul>
+    <img src="assets/img/Untitled-removebg-preview.png" class="img">
+    <li class="logo"><a href="#home">Smiley Shop</a></li>
+    <li class="dropdown">
+      <a >Categories</a>
+      <div class="dropdown-content">
+        <a href="#">All Categories</a>
+        <a href="#">Phones & Accessories</a>
+        <a href="#">Women's Clothing</a>
+        <a href="#">Sports & Entertainment</a>
+        <a href="#">Beauty & Health</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a >Manage</a>
+      <div class="dropdown-content">
+        <a href="#">Manage Everything</a>
+        <a href="#">Payments</a>
+        <a href="#">Shipping</a>
+        <a href="#">Capital</a>
+      </div>
+    </li>
+      <li class="left"><a href="#price">Pricing</a></li>
+      <li class="dropdown">
+        <a>Learn</a>
+        <div class="dropdown-content">
+          <a href="#">Help Center</a>
+          <a href="#">Podcasts</a>
+          <a href="#">Guides</a>
+          <a href="#">Blog</a>
+        </div>
       </li>
-      <li>
-        <a routerLink="/account">Account</a>
-      </li>
+      <li class="sin"><a href="#sign">Sign In</a></li>
+      <li class="pursh"><a href="#purchase">Purchase</a></li>
     </ul>
-  </div>
-</mat-toolbar>
+</div>
+
+  
